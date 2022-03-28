@@ -1,6 +1,8 @@
+require_relative "Titular"
+
 class Conta < Titular
     def initialize(conta)
-        @titulae = Titular.new("", 0, "", "")
+        @titular = Titular.new("", 0, "", "")
         @conta = conta
         private @saldo = 0
     end

@@ -1,11 +1,11 @@
 class Titular
-    def initialize(nome, idade, CPF, profissao)
+    def initialize(nome, idade, cpf, profissao)
         @nome = nome
         @idade = idade
         if @idade <= 18
             puts "#{nome} você não pode ter uma conta, pois ainda não pode ter uma conta!"
         end
-        @CPF = CPF
+        @cpf = cpf
         @profissao = profissao
     end
 

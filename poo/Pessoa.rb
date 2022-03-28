@@ -7,6 +7,8 @@ class Pessoa
   end
 
   def ola
+    puts "Digite seu nome: "
+    @nome = gets.chomp
     puts "Olá #{@nome}, seja bem vindo!"
     puts "Digite a sua idade: "
     @idade = gets.chomp.to_i
